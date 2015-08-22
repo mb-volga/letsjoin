@@ -1,0 +1,61 @@
+{# dir: site #}
+{% extends "/layouts/content.twig" %}
+
+{% block headTitle %}
+    Регистрация
+{% endblock headTitle %}
+
+{% block content %}
+    {% if CApp.app().hasFlash('reg') %}
+        {% spaceless %}
+            <h1>{{ CApp.app().getFlash('reg')|raw }}</h1>
+        {% endspaceless %}
+    {% elseif CApp.app().isGuest %}
+
+    <div id="registration">
+        <form method="POST" name="registration" id="form-registration">
+            <div>
+                <label class="requared">Email</label>
+                <input type="text" name="registration[email]" />
+            </div>
+
+            <div>
+                <label class="requared">Пароль:</label>
+                <input type="password" name="registration[password]"/>
+            </div>
+            <div>
+                <label class="requared">Nickname:</label>
+                <input type="text" name="registration[nickname]"/>
+            </div>        
+            <div>
+                <label class="requared">Phone:</label>
+                <input type="text" name="registration[phone]"/>
+            </div>
+
+            <div>
+                <label class="requared">Регион:</label>
+                <select name="registration[id_region]">
+                    <option value="">Выберите регион</option>
+                    {% for region in regions %}
+                        {{ CHtml.option(region.title, {'value':region.id})|raw }}
+                    {% endfor %}
+                </select>
+            </div>
+                
+            <div>
+                <label class="requared">Город:</label>
+                <select name="registration[id_city]">
+                    <option value="">Выберите город</option>
+                    {% for city in citys %}
+                        {{ CHtml.option(city.title, {'value':city.id})|raw }}
+                    {% endfor %}
+                </select>
+            </div>
+            {{ CHtml.inputSubmit('Регистрация')|raw }}
+        </form>
+    </div>
+
+    {% else %}
+    <p>Вы авторизованы.</p>
+    {% endif %}
+{% endblock content %}

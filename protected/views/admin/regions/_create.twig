@@ -1,0 +1,12 @@
+{# admin/regions #}
+{% extends "admin/layouts/content.twig" %}
+
+{% block content %}
+    <form method="POST">
+        {{ region.getAttributeLabel('title') }} : {{ CHtml.inputText({'name':'region[title]'})|raw }}
+        {{ CHtml.inputSubmit('Сохранить')|raw }}
+    </form>    
+    {% if CApp.app().hasFlash('save') %}
+        {{ CApp.app().getFlash('save') }}
+    {% endif %}
+{% endblock content %}

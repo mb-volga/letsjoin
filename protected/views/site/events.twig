@@ -1,0 +1,14 @@
+{# dir: site #}
+{% extends "layouts/content.twig" %}
+
+{% block headTitle %}
+    События
+{% endblock headTitle %}
+
+{% block content %}
+    {% for event in events %}
+        {{ event.details }}
+        {{ places[event.id].title }}
+        <br>
+    {% endfor %}
+{% endblock content %}

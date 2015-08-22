@@ -1,0 +1,23 @@
+{% extends "admin/layouts/content.twig" %}
+
+{% block content %}
+<div id="regions">
+    <form method="POST" name="regions" action="">
+        <table border="1" >
+            <tr>
+                <th><input type="checkbox" name="regions[]" value="-1" id="maincb" /></th>
+                <th><span>#</span></th>
+                <th>{{ regions[0].getAttributeLabel('title') }}</th>
+            </tr>
+            {% set counter = 1 %}
+            {% for region in regions %}
+            <tr>
+                <td><input type="checkbox" class="check_choice" name="regions[]" value="{{ region.id }}"></td>
+                <td>{{ counter }}{% set counter = counter + 1 %}</td>
+                <td>{{ region.title }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </form>
+</div>
+{% endblock content %}

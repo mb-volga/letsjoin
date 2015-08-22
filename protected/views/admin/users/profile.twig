@@ -1,0 +1,23 @@
+{# admin/user #}
+{% extends "admin/layouts/content.twig" %}
+
+{% block headTitle %}
+    Профиль пользователя
+{% endblock headTitle %}
+
+{% block content %}
+<table border="1" cellspacing="2">
+    <tr>
+        <th>{{ user.getAttributeLabel('id')}}</th>
+        <th>{{ user.getAttributeLabel('nickname') }}</th>
+        <th>{{ user.getAttributeLabel('email') }}</th>
+        <th>{{ user.getAttributeLabel('phone') }}</th>
+    </tr>
+    <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.nickname }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+    </tr>
+</table>
+{% endblock content %}

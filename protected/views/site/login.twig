@@ -1,0 +1,19 @@
+{# dir: site #}
+{% extends "/layouts/content.twig" %}
+{%- block headTitle -%}
+Авторизация
+{%- endblock headTitle -%}
+
+{% if not CApp.app().isGuest %}
+
+{% block content %}
+    <form method="POST">
+        {{ model.getAttributeLabel('login')|raw }}: {{ CHtml.inputText({'name':'login[username]'})|raw }}
+        {{ model.getAttributeLabel('paswword')|raw }}: {{ CHtml.inputPassword({'name':'login[password]'})|raw }}
+        {{ CHtml.inputSubmit('Войти')|raw }}
+        {% if CApp.app().hasFlash('login') %}
+            {{ CApp.app().getFlash('login') }}
+        {% endif %}
+    </form>
+{% endblock content %}
+{% endif %}

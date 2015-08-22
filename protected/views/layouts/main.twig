@@ -1,0 +1,35 @@
+{# dir: layouts/main #}
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head -%}
+        <title>{%- block headTitle -%}{%- endblock headTitle -%} | Let&rsquo;s Join</title>
+        {% block headMeta %}{% endblock headMeta -%}
+        {% block headLink %}{% endblock headLink %}
+        <meta charset="UTF-8" />
+{#        <link rel="stylesheet" href="{{ CApp.app().dirApp|raw }}/css/main.css">#}
+{#        <script src="{{ CApp.app().dirApp|raw }}/js/jsController.js"></script>#}
+        <link rel="stylesheet" href="{{CApp.app().dirApp|raw}}/css/corrects.css">
+        <!--[if lt IE 9]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+        <![endif]-->
+    {% endblock head -%}
+    </head>
+    <body>
+        <div id="page">
+            <header id="header">
+                {% include 'layouts/header.twig' -%}
+            </header>
+            <section id="content">
+                <div id="main-content">
+                    {%- block content -%}
+                    {%- endblock content -%}
+                
+                </div><!-- end main-content -->
+            </section><!-- end content -->
+            <footer id="footer">
+                {% include 'layouts/footer.twig' %}
+            </footer><!-- footer -->
+        </div><!-- page -->
+    </body>
+</html>

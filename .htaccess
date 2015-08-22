@@ -1,0 +1,14 @@
+AddDefaultCharset UTF-8
+
+Options Includes FollowSymLinks
+# Включаем движок перезаписи.
+RewriteEngine On
+# Условия: если это не физическая директория, файл или ссылка, 
+# то берем весь URL и отправляем на файл index.php(нашу единую точку входа).
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+# передаем GET параметр url со значением нашего URL.
+#RewriteRule ^([a-z]+)?/?([a-z]+)?/?(/?[0-9]+)?/?$ index.php?url=$1&ad=$2&id=$3 [QSA,L]
+
+RewriteRule ^([a-zA-Z]+[0-9]*)?/?([a-zA-Z_]+[0-9]*)?/?(/?[a-zA-Z0-9]+)?/?$ index.php?ctrl=$1&act=$2&param=$3 [QSA,L]

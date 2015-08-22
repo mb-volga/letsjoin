@@ -1,0 +1,99 @@
+
+14.08.15, 9:43  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:43  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:43  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:43  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:47  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:47  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.php.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:50  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 9:58  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:14  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:14  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:15  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:17  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:17  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:17  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 10:26  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/index.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+14.08.15, 11:31  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layout/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "admin/users/users.twig" at line 1. 
+14.08.15, 11:42  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected ")" in "admin/users/users.twig" at line 18 
+14.08.15, 11:42  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Parser.php  line: 174  msg: Unexpected tag name "endblock" (expecting closing tag for the "for" tag defined near line 19) in "admin/users/users.twig" at line 70 
+14.08.15, 11:42  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Parser.php  line: 174  msg: Unexpected tag name "endblock" (expecting closing tag for the "for" tag defined near line 19) in "admin/users/users.twig" at line 70 
+14.08.15, 11:43  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Parser.php  line: 174  msg: Unexpected tag name "endif" (expecting closing tag for the "for" tag defined near line 19) in "admin/users/users.twig" at line 58 
+14.08.15, 11:43  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Parser.php  line: 174  msg: Unexpected tag name "endif" (expecting closing tag for the "for" tag defined near line 19) in "admin/users/users.twig" at line 58 
+14.08.15, 11:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 264  msg: Unclosed "{" in "admin/users/users.twig" at line 45 
+14.08.15, 11:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 264  msg: Unclosed "{" in "admin/users/users.twig" at line 45 
+14.08.15, 11:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected ")" in "admin/users/users.twig" at line 46 
+14.08.15, 11:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected ")" in "admin/users/users.twig" at line 46 
+14.08.15, 11:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected "}" in "admin/users/users.twig" at line 46 
+14.08.15, 11:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected "}" in "admin/users/users.twig" at line 46 
+14.08.15, 11:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected "}" in "admin/users/users.twig" at line 46 
+14.08.15, 11:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected "}" in "admin/users/users.twig" at line 46 
+14.08.15, 13:45  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 264  msg: Unclosed "{" in "admin/users/users.twig" at line 53 
+14.08.15, 14:12  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\TokenParser\Block.php  line: 38  msg: The block 'content' has already been defined line 7 in "admin/users/profile.twig" at line 22 
+14.08.15, 14:14  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/layout/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "admin/index.twig" at line 1. 
+14.08.15, 14:16  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/nav.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "admin/layouts/header.twig" at line 3. 
+14.08.15, 14:16  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/profile.twig" at line 2. 
+14.08.15, 14:17  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/profile.twig" at line 2. 
+14.08.15, 14:17  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/profile.twig" at line 2. 
+14.08.15, 14:18  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:18  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:18  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:19  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:19  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:19  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:19  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:20  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:20  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:21  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/index.twig" at line 2. 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 14:23  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "user/profile.twig" at line 2. 
+14.08.15, 14:24  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "layouts/content.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views) in "site/index.twig" at line 2. 
+14.08.15, 14:24  code: 0  file: C:\xampp\htdocs\letsjoin.ru\protected\controllers\UserController.php  line: 29  msg: Не найден пользователь 
+14.08.15, 14:25  code: 0  file: C:\xampp\htdocs\letsjoin.ru\protected\controllers\UserController.php  line: 29  msg: Не найден пользователь 
+14.08.15, 14:34  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+14.08.15, 15:12  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected ")" in "admin/regions/regions.twig" at line 13 
+14.08.15, 15:12  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected "}" in "admin/regions/regions.twig" at line 19 
+14.08.15, 16:29  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\TokenStream.php  line: 88  msg: Unexpected token "end of template" of value "" ("end of statement block" expected) in "admin/layouts/main.twig" at line 32 
+14.08.15, 17:00  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\TokenStream.php  line: 88  msg: A hash key must be followed by a colon (:). Unexpected token "punctuation" of value "," ("punctuation" expected with value ":") in "admin/users/users.twig" at line 53 
+14.08.15, 17:07  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\TokenStream.php  line: 88  msg: A hash value must be followed by a comma. Unexpected token "name" of value "asd" ("punctuation" expected with value ",") in "admin/users/users.twig" at line 31 
+16.08.15, 15:07  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+16.08.15, 15:38  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/../users/registration.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+16.08.15, 15:41  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Loader\Filesystem.php  line: 195  msg: Unable to find template "admin/admin/users/registration.twig" (looked into: C:\xampp\htdocs\letsjoin.ru/protected/views). 
+16.08.15, 15:52  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 259  msg: Unexpected ")" in "admin/users/registration.twig" at line 4 
+16.08.15, 15:54  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\ExpressionParser.php  line: 497  msg: A parameter name must be a string, "Twig_Node_Expression_Constant" given in "admin/users/registration.twig" at line 55 
+16.08.15, 15:54  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\ExpressionParser.php  line: 497  msg: A parameter name must be a string, "Twig_Node_Expression_Constant" given in "admin/users/registration.twig" at line 55 
+16.08.15, 15:54  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\ExpressionParser.php  line: 497  msg: A parameter name must be a string, "Twig_Node_Expression_Constant" given in "admin/users/registration.twig" at line 55 
+16.08.15, 15:54  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\ExpressionParser.php  line: 497  msg: A parameter name must be a string, "Twig_Node_Expression_Constant" given in "admin/users/registration.twig" at line 55 
+16.08.15, 15:54  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\ExpressionParser.php  line: 497  msg: A parameter name must be a string, "Twig_Node_Expression_Constant" given in "admin/users/registration.twig" at line 55 
+16.08.15, 16:06  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\TokenStream.php  line: 88  msg: Unexpected token "punctuation" of value ":" ("end of print statement" expected) in "admin/users/registration.twig" at line 55 
+16.08.15, 16:07  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\views\twig\Lexer.php  line: 264  msg: Unclosed "{" in "admin/users/registration.twig" at line 55 
+16.08.15, 17:13  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\models\Model.php  line: 77  msg: Не найдено свойство модели password в User 
+16.08.15, 17:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\models\Model.php  line: 77  msg: Не найдено свойство модели password в User 
+16.08.15, 17:50  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\models\Model.php  line: 77  msg: Не найдено свойство модели password в User 
+16.08.15, 17:53  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\models\Model.php  line: 77  msg: Не найдено свойство модели password в User 
+16.08.15, 17:54  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\models\Model.php  line: 77  msg: Не найдено свойство модели password в User 
+16.08.15, 17:55  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\models\Model.php  line: 77  msg: Не найдено свойство модели password в User 
+16.08.15, 22:11  code: 0  file: C:\xampp\htdocs\letsjoin.ru\protected\controllers\UserController.php  line: 29  msg: Не найден пользователь 
+22.08.15, 12:16  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+22.08.15, 12:16  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\components\Router.php  line: 78  msg: Request is invalid 
+22.08.15, 12:16  code: 0  file: C:\xampp\htdocs\letsjoin.ru\protected\controllers\UserController.php  line: 29  msg: Не найден пользователь 
+22.08.15, 12:45  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\controllers\Controller.php  line: 81  msg: Не найдено свойство _table  
+22.08.15, 12:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\controllers\Controller.php  line: 81  msg: Не найдено свойство idPlace  
+22.08.15, 12:48  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\controllers\Controller.php  line: 81  msg: Не найдено свойство idPlace  
+22.08.15, 12:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\controllers\Controller.php  line: 81  msg: Не найдено свойство idPlace  
+22.08.15, 12:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\controllers\Controller.php  line: 81  msg: Не найдено свойство idPlace  
+22.08.15, 12:49  code: 0  file: C:\xampp\htdocs\letsjoin.ru\core\controllers\Controller.php  line: 81  msg: Не найдено свойство idPlace  
+22.08.15, 13:01  code: 0  file: C:\xampp\htdocs\letsjoin.ru\protected\controllers\UserController.php  line: 29  msg: Не найден пользователь 

@@ -1,0 +1,69 @@
+{% extends "admin/index.twig" %}
+{% block headTitle %}
+    {{ parent() }}
+    Пользователи
+{% endblock headTitle %}
+{% block content %}
+    <form method="POST" name="users" action="">
+        <table border="1" >
+            <tr>
+                <th><input type="checkbox" name="users[]" value="-1" id="maincb" /></th>
+                <th><span>#</span></th>
+                <th>{{ users[0].getAttributeLabel('nickname') }}</th>
+                <th>{{ users[0].getAttributeLabel('email') }}</th>
+                <th><span>Бан</span></th>                
+                <th>{{ users[0].getAttributeLabel('phone') }}</th>
+                <th><span>Операции</span></th>
+            </tr>
+            {% set counter = 1 %}
+            {% for user in users %}
+            <tr>
+                <td><input type="checkbox" class="check_choice" name="users[]" value="{{ user.id }}"></td>
+                <td>{{ counter }}{% set counter = counter + 1 %}</td>
+                <td>{{ user.nickname }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.ban }}</td>
+                <td>{{ user.phone }}</td>
+                <td>
+                    <label for="profile">
+                        {{ CHtml.link(
+                                CHtml.img( '/design/icons/user.png', {'width':'15', 'height':'15'}),
+                            'admin/viewuser/'~user.id, {'title':'Профиль'}
+                        )|raw }}
+                    </label>
+                    
+                    <label for="edit">
+                        {{ CHtml.button(
+                                CHtml.img('/design/icons/edit.png', {'width':'15', 'height':'15'}),
+                                {'name':'edit', 'type':'submit', 'title':'Редактировать', 'name':'edit'}
+                        )|raw}}
+                    </label>
+                    
+                    <label for="del">
+                        {{ CHtml.button(
+                            CHtml.img('/design/icons/del.png', {'width':'15', 'height':'15'}), 
+                            {'type':'submit', 'title':'Удалить', 'name':'del'} 
+                        )|raw }}
+                    </label>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <div class="controls">
+            {{ CHtml.input('Удалить', {'name':'del', 'type':'submit', 'title':'Удалить'})|raw }}
+            {{ CHtml.input('Бан', {'name':'setban', 'type':'submit', 'title':'Забанить'})|raw }}
+            {{ CHtml.input('Разбанить', {'name':'unsetban', 'type':'submit', 'title':'Разбанить'})|raw }}
+        </div>
+    </form>   
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function (){
+        if($('checkbox#maincb')){
+            $('#maincb').click(function (){
+                if($('input.check_choice')){
+                    /* Выбрать все чекбоксы */
+                }
+    })}})
+</script>
+{% endblock content %}

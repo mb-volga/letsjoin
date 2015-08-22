@@ -1,0 +1,14 @@
+{# dir: layouts #}
+{# extends layuots/main #}
+{% extends "layouts/main.twig" %}
+
+{% block headMeta %}{% endblock headMeta %}
+{% block headLink %}{% endblock headLink %}
+{% block script %}{% endblock script %}
+
+{%- block headTitle -%}
+{{ parent() }}
+{%- endblock headTitle -%}
+
+
+{% block content %}{% endblock content %}
