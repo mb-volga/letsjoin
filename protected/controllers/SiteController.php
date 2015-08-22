@@ -19,7 +19,8 @@ class SiteController extends Controller
                 'order by'=>'counter desc'
             ));
         
-       
+        echo 'Привер';
+        
         $this->render('index', array('items'=>$model));
     }
     
