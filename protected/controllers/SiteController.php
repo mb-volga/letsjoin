@@ -14,6 +14,7 @@ class SiteController extends Controller
     
     public function actionIndex()
     {
+        echo 'asd';
         $model = Category::model()->findByAttributes(array(
                 'where'=>'id_parent = 0',
                 'order by'=>'counter desc'
