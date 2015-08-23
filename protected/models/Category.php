@@ -18,7 +18,7 @@ class Category extends ActiveRecord
     public function safe() 
     {
         return array(
-            'id', 'id_parent', 'title', 'counter', 'idEvents', 'idParents'
+            'id', 'id_parent', 'title', 'counter'
         );
     }
     

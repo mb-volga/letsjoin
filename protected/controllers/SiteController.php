@@ -8,40 +8,21 @@
  */
 class SiteController extends Controller
 {
-    /**
-     * Экшен по умолчанию
-     */
-    
     public function actionIndex()
     {
-        $model = Category::model()->findByAttributes(array(
-                'where'=>'id_parent = 0',
-                'order by'=>'counter desc'
-            ));
-        
-        
+        $models = Category::model()->findByAttributes(array(
+            'where'=>'id_parent = 0',
+            'order by'=>'counter desc'
+        ));
+
         $this->render('index', array('items'=>$model));
     }
-    
-    /**
-     * События
-     */
+
     public function actionEvents()
     {
         $events = Events::model()->findAll();
-        
-        $places = [];
-        
-        foreach ($events as $event) 
-        {
-            if( !key_exists($event->id, $places) ){
-                $places[$event->id] = Places::model()->findByPk($event->id_place);
-            }
-        }
-        
-        
-        
-        $this->render('events', array('events'=>$events, 'places'=>$places));
+
+        $this->render('events', array('events'=>$events));
     }
 
     /**

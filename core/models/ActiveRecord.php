@@ -56,15 +56,15 @@ abstract class ActiveRecord extends Model
             return self::$_models[$className]; 
         }
     }
-    
-    
+
+
     # В дочерних моделях дадаются отношения таблиц.
     # Возвращает ассоциативный массив, где ключом являемся имя отношения
     # array('key_relation' => array(self::Тип_Связи, 'first_table', 'second_table'))
     public function relations()
     {
         return array();
-    }   
+    }
    
 
     public function beforeSave() {}
