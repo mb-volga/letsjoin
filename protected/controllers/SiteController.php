@@ -15,7 +15,7 @@ class SiteController extends Controller
             'order by'=>'counter desc'
         ));
 
-        $this->render('index', array('items'=>$model));
+        $this->render('index', array('items'=>$models));
     }
 
     public function actionEvents()

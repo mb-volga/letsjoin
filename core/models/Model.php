@@ -12,14 +12,19 @@
  * @author Ислам
  * @property $attributes
  */
-abstract class Model 
+abstract class Model implements JsonSerializable
 {
     
     protected $_property = array();
-    protected $_errors = array();
+
     protected static $_models = array();
     
-    
+
+    public function jsonSerialize()
+    {
+        return $this->_property;
+    }
+
     protected function safe() {
         return array();
     }
@@ -27,16 +32,7 @@ abstract class Model
     protected function attributeLabels() {
         return array();
     }
-    
-    public function setError($errorName, $errorMsg)
-    {
-        $this->_errors[$errorName] = $errorMsg;
-    }
 
-    public function getError($errorName)
-    {
-        return isset($this->_errors[$errorName]) ? $this->_errors[$errorName] : null;
-    }
 
     public function getAttributeLabel($label)
     {
@@ -55,7 +51,8 @@ abstract class Model
     }
 
 
-    public function __set($name, $value) {
+    public function __set($name, $value)
+    {
         if($name === 'attributes' && is_array($value))
         {
             foreach ($value as $key=>$v) 
@@ -70,10 +67,7 @@ abstract class Model
     }
     
     public function __get($name) {
-        if( !isset($this->_property[$name]) )
-            throw new Exception ("Не найдено свойство модели $name в " . get_called_class());
-        
-        return $this->_property[$name];
+        return isset($this->_property[$name]) ?  $this->_property[$name] : null;
     }
     
     public function __unset($name) {

@@ -14,7 +14,9 @@
 class Category extends ActiveRecord
 {
     protected static $_table = 'category';
-    
+
+//    public $aaa;
+
     public function safe() 
     {
         return array(

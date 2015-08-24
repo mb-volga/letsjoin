@@ -19,7 +19,7 @@
 class CApp
 {
     protected $property = array();
-
+    private static $app;
 
     public function __construct() 
     {
@@ -29,8 +29,10 @@ class CApp
     
     public static function app()
     {
-        $app = new CApp();
-        return $app; 
+        if(!isset(self::$app)){
+            self::$app = new self;
+        }
+        return self::$app;
     }
     
     public function logout()
@@ -40,14 +42,14 @@ class CApp
         Session::destroy();
     }
 
-    private function setIdUser()
+    private function setUserID()
     {
         $this->isGuest 
                 ? $this->property['idUser'] = null
                 : $this->property['idUser'] = Session::getValue('UID');
     }
 
-    private function setNickNameUser()
+    private function setUserNickName()
     {
         $this->isGuest 
                 ? $this->property['nickName'] = null
@@ -60,8 +62,8 @@ class CApp
                 ? $this->property['isGuest'] = false 
                 : $this->property['isGuest'] = true;
         
-        $this->setIdUser();
-        $this->setNickNameUser();
+        $this->setUserID();
+        $this->setUserNickName();
     }
 
 
@@ -110,12 +112,9 @@ class CApp
         
         header('Location: '.$loc);
         exit();
-        
-//        $_GET['ctrl']  = isset( $exp_url[0] ) ? $exp_url[0] : '';
-//        $_GET['act']   = isset( $exp_url[1] ) ? $exp_url[1] : '';
-//        $_GET['param'] = isset( $exp_url[2] ) ? $exp_url[2] : '';
-//        
-//        Router::rout()->start();
-//        exit();
+    }
+
+    public function endApp(){
+        exit();
     }
 }
