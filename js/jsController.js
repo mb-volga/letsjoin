@@ -31,8 +31,8 @@
 				$("#view").html(html);						
 			}
 		});
-
 	});
+
     $("#friends_me").live('click',function()
 	{
         var divs = $("#view").firstChild();
