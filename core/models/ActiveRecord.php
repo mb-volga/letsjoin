@@ -47,13 +47,13 @@ abstract class ActiveRecord extends Model
     }
     
         
-    protected static function model($className=__CLASS__)
+    protected static function model($className = __CLASS__)
     {
         if( isset(self::$_models[$className]) ) {
             return self::$_models[$className];
-        } else {        
+        } else {
             self::$_models[$className] = new $className;
-            return self::$_models[$className]; 
+            return self::$_models[$className];
         }
     }
 
@@ -96,13 +96,11 @@ abstract class ActiveRecord extends Model
         return $db->query($query);
     }
     
-    public function findBySql( $query )
+    public function findBySql( $query, $param = array() )
     {
-        echo $query;
-        die;
         $db = new Db();
         $db->setClassName(get_called_class());
-        return $db->query($query);
+        return $db->query($query, $param);
     }
     
 
