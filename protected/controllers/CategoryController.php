@@ -2,7 +2,7 @@
 
 class CategoryController extends Controller
 {
-    public function actionParents($parent = null)
+    public function actionGroups($parent = null)
     {
         $rules = [];
         foreach(Category::model()->findAll() as $rule){
