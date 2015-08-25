@@ -13,6 +13,11 @@ and open the template in the editor.
     margin: 0;
 }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
 .clear{
     clear: both;
 }
@@ -32,4 +37,9 @@ and open the template in the editor.
     text-align: center;
     vertical-align: middle;
     content: '*';
+}
+
+
+a{
+    text-decoration: none;
 }

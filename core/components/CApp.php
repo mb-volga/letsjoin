@@ -109,8 +109,8 @@ class CApp
         $loc = CApp::app()->dirApp.'/'.$exp_url [0].'/' . $exp_url [1];
         
         isset($array_url[2]) ? $loc .='/'.$array_url[2] : $loc;
-        
-        header('Location: '.$loc);
+
+        header("Location:  {$loc}");
         exit();
     }
 

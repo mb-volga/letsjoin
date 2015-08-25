@@ -69,6 +69,10 @@ class __TwigTemplate_f99d5ea54f61eb02a56e81b04f4e62e0fa99b043a2b87cddc8c0626f68d
         $this->displayBlock('headLink', $context, $blocks);
         // line 9
         echo "        <meta charset=\"UTF-8\" />
+        <link rel=\"stylesheet\" href=\"";
+        // line 10
+        echo $this->getAttribute($this->getAttribute((isset($context["CApp"]) ? $context["CApp"] : null), "app", array(), "method"), "dirApp", array());
+        echo "/css/main.css\">
 ";
         // line 12
         echo "        <link rel=\"stylesheet\" href=\"";
@@ -112,6 +116,6 @@ class __TwigTemplate_f99d5ea54f61eb02a56e81b04f4e62e0fa99b043a2b87cddc8c0626f68d
 
     public function getDebugInfo()
     {
-        return array (  99 => 25,  94 => 8,  89 => 7,  84 => 6,  74 => 12,  71 => 9,  69 => 8,  67 => 7,  62 => 6,  59 => 5,  52 => 32,  50 => 31,  45 => 28,  43 => 25,  39 => 22,  37 => 21,  31 => 17,  29 => 5,  24 => 2,);
+        return array (  103 => 25,  98 => 8,  93 => 7,  88 => 6,  78 => 12,  74 => 10,  71 => 9,  69 => 8,  67 => 7,  62 => 6,  59 => 5,  52 => 32,  50 => 31,  45 => 28,  43 => 25,  39 => 22,  37 => 21,  31 => 17,  29 => 5,  24 => 2,);
     }
 }

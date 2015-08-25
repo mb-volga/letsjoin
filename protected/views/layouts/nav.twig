@@ -2,14 +2,25 @@
 {# included in lauouts\header #}
 <nav id="nav">
     <ul id="menu">
-        <li>{{ CHtml.link('Главная', 'site/index')|raw }}</li>
-        <li>    {{ CHtml.link('Профиль', 'user/profile')|raw }}
-            <ul>
-                <li>{{ CHtml.link('Редактировать', 'user/')|raw }}</li>
-                <li><a href="#">Мои события</a></li>
-                <li>{{ CHtml.link('Мои друзья', 'user/')|raw }}</li>
-            </ul>
-        </li>
+        {% if CApp.app().isGuest %}
+            <li>
+                {{ CHtml.link('Аккаунт', '#')|raw }}
+                <ul>
+                    <li>{{ CHtml.link('Войти', 'site/login')|raw }}</li>
+                    <li>{{ CHtml.link('Регистрация', 'site/registration')|raw }}</li>
+                </ul>
+            </li>
+        {% else %}
+            <li>{{ CHtml.link('Выйти', 'user/logout')|raw }}</li>
+            <li>{{ CHtml.link('Админ', 'admin/index')|raw }}</li>
+            <li>{{ CHtml.link('Профиль', 'user/profile')|raw }}
+                <ul>
+                    <li>{{ CHtml.link('Редактировать', 'user/')|raw }}</li>
+                    <li><a href="#">Мои события</a></li>
+                    <li>{{ CHtml.link('Мои друзья', 'user/')|raw }}</li>
+                </ul>
+            </li>
+        {% endif %}
         <li><a href="#">Новости</a></li>
         <li><a href="#">События</a>
             <ul>
@@ -17,13 +28,7 @@
                 <li><a href="#">Прошедшие</a></li>
             </ul>
         </li>
-        {% if CApp.app().isGuest %}
-            <li>{{ CHtml.link('Войти', 'site/login')|raw }}</li>
-            <li>{{ CHtml.link('Регистрация', 'site/registration')|raw }}</li>
-        {% else %}
-            <li>{{ CHtml.link('Админ', 'admin/index')|raw }}</li>
-            <li>{{ CHtml.link('Выйти', 'user/logout')|raw }}</li>
-        {% endif %}
+        <li>{{ CHtml.link('Главная', 'site/index')|raw }}</li>
     </ul><!-- menu -->
 </nav><!-- nav -->
             

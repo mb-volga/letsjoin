@@ -27,6 +27,7 @@ class Router
      */
     public function start() 
     {
+
         $this->parseURI();
         
         if (
@@ -59,7 +60,7 @@ class Router
      * @throws Exception Выбрасывает ошибку, если нет запрашиваемого контроллера или экшена
      */
     private function parseURI()
-    {        
+    {
         !empty( $_GET['ctrl'] ) ? 
                 $this->controllerClass = ucfirst( strtolower( $_GET['ctrl'] ) . $this->controllerClass) :
                 $this->controllerClass = self::$DEFAULT_CTRL;

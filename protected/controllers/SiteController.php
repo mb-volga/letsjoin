@@ -21,13 +21,9 @@ class SiteController extends Controller
     public function actionEvents()
     {
         $events = Events::model()->findAll();
-
         $this->render('events', array('events'=>$events));
     }
 
-    /**
-     * Регистрация
-     */
     public function actionRegistration()
     {
         if(isset($_POST['registration']))
@@ -61,18 +57,6 @@ class SiteController extends Controller
         CApp::app()->isGuest ? $this->render('login', array('model'=>$model)) : $this->redirect('site/index');
     }
 
-    
-    public function accessRules() 
-    {
-        return array(
-            array(
-                'allow',
-                'actions'=>array('index', 'login', 'registration'),
-                'users'=>'*'
-            ),
-        );
-    }
-    
     
 /**
  * end class

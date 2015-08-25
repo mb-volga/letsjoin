@@ -1,0 +1,9 @@
+{% extends 'layouts/content.twig' %}
+{% block content %}
+    <p>{{ items[0].id_category_parent }}</p>
+    {%  for item in items %}
+        <div class="block">
+            {{ CHtml.link(item.details, 'category/event/'~item.id)|raw }}
+        </div>
+    {% endfor %}
+{% endblock content %}

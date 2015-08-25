@@ -1,7 +1,7 @@
 {# dir: site #}
 {% extends "layouts/content.twig" %}
 {%- block headTitle -%}
-Главная
+    Главная
 {%- endblock headTitle -%}
 
 {% block headMeta %}
@@ -11,4 +11,11 @@
 {% endblock headLink %}
 
 {% block content %}
+    <div id="blocks">
+        {%  for item in items %}
+            <div class="block">
+                {{ CHtml.link(item.title, 'category/parents/'~item.link)|raw }}
+            </div>
+        {% endfor %}
+    </div>
 {% endblock content %}
